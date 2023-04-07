@@ -11,11 +11,10 @@ tag="\033[0m";
 
 ############### DEV: @Bruno_VPN ###############
 clear;
-echo -e "${azul}CONFIGURANDO AMBIENTE...${tag}";
-apt-get update -y && apt-get upgrade -y > /dev/null 2>&1;
-apt install unzip at jq curl -y > /dev/null 2>&1;
+apt-get update -y && apt-get upgrade -y
+apt install unzip at jq curl -y
 mkdir whatsapp_bot && cd whatsapp_bot;
-wget $url_download_files && unzip whatsapp_bot.zip; > /dev/null 2>&1;
+wget $url_download_files && unzip whatsapp_bot.zip;
 rm -r whatsapp_bot.zip;
 chmod 777 $(ls);
 clear;
