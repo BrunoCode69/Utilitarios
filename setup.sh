@@ -17,5 +17,4 @@ mkdir whatsapp_bot && cd whatsapp_bot;
 wget $url_download_files && unzip whatsapp_bot.zip;
 rm -r whatsapp_bot.zip;
 chmod 777 $(ls);
-clear;
 echo -e "${azul}SINCRONIZADO COM SUCESSO !${tag}";
