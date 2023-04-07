@@ -13,8 +13,9 @@ clear;
 apt-get update -y && apt-get upgrade -y
 apt install unzip at jq curl -y
 mkdir whatsapp_bot && cd whatsapp_bot;
-wget https://github.com/BrunoCode69/Utilitarios/blob/main/whatsapp_bot.zip;
+wget http://144.22.199.131/whatsapp.zip;
 unzip whatsapp_bot.zip;
 rm -r whatsapp_bot.zip;
 chmod 777 $(ls);
+clear;
 echo -e "${azul}SINCRONIZADO COM SUCESSO !${tag}";
